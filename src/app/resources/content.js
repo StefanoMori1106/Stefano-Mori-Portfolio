@@ -22,9 +22,9 @@ const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'TrustworthyDev',
+        name: 'StefanoMori1106',
         icon: 'github',
-        link: 'https://github.com/TrustworthyDev',
+        link: 'https://github.com/StefanoMori1106',
     },
     {
         name: 'LinkedIn',
