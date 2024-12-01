@@ -44,7 +44,7 @@ const social = [
     {
         name: 'Discord',
         icon: 'discord',
-        link: '123465789',
+        link: 'HiddenEye',
     },
     {
         name: 'Stefano.Mori.Dev@gmail.com',
