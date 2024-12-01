@@ -1,8 +1,8 @@
 import { InlineCode, LetterFx } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Stefano',
-    lastName:  'Mori',
+    firstName: 'Hayashi',
+    lastName:  'Benjiro',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
@@ -62,8 +62,7 @@ const home = {
                     speed="medium"
                     trigger="instant"
                     charset={[
-                        'X', '@', 'd', 'u', 's', 't', 'i', 'n', '$', 'a', 'H', 'z', 'o', '0',
-                        'y', '#', '?', '*', '0', '1', '+', 'm', 'o', 'o', 'r', 'e'
+                        'A', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
                     ]}
                 >
                     Driving Innovation and Excellence Through Expertly Crafted Digital Solutions and IT Strategies
