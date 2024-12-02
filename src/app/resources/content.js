@@ -2,7 +2,7 @@ import { InlineCode, LetterFx } from "@/once-ui/components";
 
 const person = {
     firstName: 'Stefano',
-    lastName:  'Mori-Changed',
+    lastName:  'Mori',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
