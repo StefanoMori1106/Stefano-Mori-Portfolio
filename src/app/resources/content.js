@@ -9,7 +9,7 @@ const person = {
     role:      'Full-Stack Developer',
     avatar:    '/images/mi.png',
     location: 'Pensacola, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['Japanese', 'English']  // optional: Leave the array empty if you don't want to display languages
+    languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -22,9 +22,9 @@ const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'TrustworthyDev',
+        name: 'StefanoMori1106',
         icon: 'github',
-        link: 'https://github.com/TrustworthyDev',
+        link: 'https://github.com/StefanoMori1106',
     },
     {
         name: 'LinkedIn',
@@ -44,7 +44,7 @@ const social = [
     {
         name: 'Discord',
         icon: 'discord',
-        link: '123465789',
+        link: 'HiddenEye',
     },
     {
         name: 'Stefano.Mori.Dev@gmail.com',
