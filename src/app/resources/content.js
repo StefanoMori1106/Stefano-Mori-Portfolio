@@ -1,14 +1,14 @@
 import { InlineCode, LetterFx } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Hayashi',
-    lastName:  'Benjiro',
+    firstName: 'Stefano',
+    lastName:  'Mori',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Full-Stack Developer',
     avatar:    '/images/mi.png',
-    location: 'Pensacola, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    location:  'Miami, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
 
@@ -22,22 +22,22 @@ const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'StefanoMori1106',
+        name: 'GitHub',
         icon: 'github',
         link: 'https://github.com/StefanoMori1106',
     },
-    {
-        name: 'LinkedIn',
-        icon: 'linkedin',
-        link: 'https://www.linkedin.com/in/',
-    },
+    // {
+    //     name: 'LinkedIn',
+    //     icon: 'linkedin',
+    //     link: 'https://www.linkedin.com/in/',
+    // },
     {
         name: '+1 (561) 501 1550',
         icon: 'phone',
         link: 'tel:+15615011550',
     },
     {
-        name: 'live:.cid.3877235d4216d91f',
+        name: 'Skype',
         icon: 'skype',
         link: 'skype:live:.cid.3877235d4216d91f?chat',
     },
@@ -47,7 +47,7 @@ const social = [
         link: 'HiddenEye',
     },
     {
-        name: 'Stefano.Mori.Dev@gmail.com',
+        name: 'Email',
         icon: 'email',
         link: 'mailto:stefano.mori.dev@gmail.com',
     }, 
@@ -108,32 +108,55 @@ const about = {
                 images: []
             },
             {
-                company: 'Kinetic Solutions LLC',
-                timeframe: '2021 - Present', 
-                role: 'Instructor / Full-Stack Developer',
+                company: 'Pidespeed',
+                timeframe: '2022 - 2024',
+                role: 'Senior Full-Stack lead',
                 achievements: [
-                    <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By creating a user-friendly website, I make it easy for clients to connect with us, highlight our services, and expand our reach, helping our business grow.</>
+                    <>Migrated the Back End from MySQL to MongoDB, significantly increasing Database Scalability and Performance to handle growing volumes of
+                        user data and transactions, resulting in a 40% Improvement in Data Query Speeds and a more effi cient handling of Large Datasets.</>,
+                    <>Designed and Implemented a Secure User Authentication System using JWT (JSON Web Tokens) and OAuth 2.0, ensuring strong protection of
+                        sensitive user information and enhancing system security, which Reduced Unauthorized Aceess Attempts by 30%.</>,
+                    <>Developed a seamless, Multi-Payment Processing System by integrating popular gateways like Stripe, PayPal, and Square, enabling smooth and
+                        secure transactions, resulting in a 25% Reduction in Payment Failures, and improving overall Checkout Completion Rates</>,
+                    <>Implemented Real-Time Order Tracking using WebSockets, GraphQL, and RESTful APIs, allowing users to monitor their orders dynamically,
+                        which led to a 20% Increase in Customer Satisfaction and Engagement</>,
+                    <>Optimizied the Platform for Responsiveness across various devices by utilizing CSS Grid, Flexbox, Bootstrap, Material UI, and TailwindCSS,
+                        ensuring a consistent and mobile-friendly experience, contributing to a 15% Increase in Mobile Traffic and improved conversion rates.</>,
+                    <>Delivered a Scalable and Modular Architecture using Microservices and Docker, enabling future platform growth and easy integration of new
+                        features, which supported a 50% Increase in User Capacity without impacting performance.</>,
+                    <>Collaborated closely with Cross-Functional Teams including Product Managers, UI/UX Designers, and QA Engineers to design, develop, and
+                        deploy key features, fostering a highly collaborative environment that ensured the Timely and Successful Delivery of the Project</>
+                    
                 ],
                 images: []
             },
             {
-                company: 'Sawmill Tactical Training Complex',
-                timeframe: '2021 - 2022',
-                role: 'Director of Operations',
+                company: 'CXScore',
+                timeframe: '2020 - 2022', 
+                role: 'Senior Full-Stack Developer',
                 achievements: [
-                    <>As Director of Operations at the Sawmill Tactical Training Center, I managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians. I introduced strategies that improved efficiency and ensured high safety standards in all training sessions. I also supported the center’s digital strategy by maintaining the website and improving client engagement online, which helped increase our visibility and outreach.</>
+                    <>Led the development of the Front End using React.js, creating reusable, scalable, and maintainable components with Redux for centralized state
+                        management, which streamlined the data flow and reduced complexity, resulting in a 30% Improvement in Development Effi ciency.</>,
+                    <>Optimized Core Web Vitals (CWVs) such as Largest Contentful Paint (LCP) and First Input Delay (FID) by employing React Best Practices like code splitting, lazy loading, and memoization. This enhanced Page Load Times by 25% and boosted SEO Performance, leading to a 15% Increase in Organic Traffic.</>,
+                    <>Integrated TypeScript to enhance type safety, reduce runtime errors, which enhanced code reliability and led to a 20% Decrease in Production
+                        Bugs.</>,
+                    <>Applied WCAG 2.1 Accessibility Standards with ARIA Attributes, semantic HTML, making the platform fully accessible to users with disabilities
+                        and expanding the user base by 10%.</>,
+                    <>Designed and Integrated Dynamic Data Visualization tools using D3.js, Chart.js, and React Query, allowing real-time insights into Core Web
+                        Vitals and accessibility results. This provided the product team with the ability to identify and resolve performance issues 40% faster.</>,
+                    <>Collaborated with Back End Teams utilizing Node.js, Express.js, GraphQL, and RESTful APIs, ensuring seamless data flow between Front End
+                        and Back End Systems, contributing to a 15% Improvement in User Retension due to a cohesive platform experience.</>,
+                    <>Styled the UI using TailwindCSS and CSS Modules, which reduced CSS file size by 30% and improved page load times, resulting in a 20% Faster
+                        User Interface.</>,
+                    <>Utilized Redux Toolkit and optimized state management with Reselect, improving rendering performance and reducing unnecessary re-renders,
+                        leading to a 15% Improvement in Application Responsiveness.</>,
+                    <>Implemented unit and intergation testing with Jest and React Testing Library, integrated with GitHub Actions for a CI/CD pipeline, which
+                        resulted in a 40% Reduction in Regression Issues.</>,
+                    <>Managed the build process with WebPack, Vite and Babel, improving module building, tree-shaking, and backward compatibility, which reduced
+                        bundle size by 20% and enhanced browser compatibility.</>
                 ],
                 images: []
             },
-            {
-                company: 'United States Army',
-                timeframe: '2004 - 2015',
-                role: 'Sniper Team Leader / Recon Team Leader / Infantry Squad Leader',
-                achievements: [
-                    <>During my 11 years in the US Army, I held leadership roles such as Battalion Sniper Section Leader, Recon Team Leader, and Infantry Squad Leader. I developed and led training programs, managed assets worth over $5 million, and led teams in complex multinational missions. I also created protocols for classified operations and consistently achieved top scores in tactical training, showing my dedication to excellence and team effectiveness.</>
-                ],
-                images: []
-            }
         ]
     },
     studies: {
@@ -141,16 +164,16 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'Tri-County Technical College',
-                description: <>Computer Science, Emphasis in Cyber Security</>,
+                name: 'Nova Southeastern University (NSU)',
+                description: <>Bachelor's Degree in Computer Engineering</>,
             },
             {
-                name: 'Colorado Technical University',
-                description: <>Computer Science, Emphasis in Cyber Security</>,
+                name: 'Codesmith',
+                description: <>Advanced Residency for Software Engineering</>,
             },
             {
-                name: 'Pikes Peak State College',
-                description: <>Business & Business Administration</>,
+                name: 'HackerRank',
+                description: <>Advanced Residency for Software Engineering</>,
             }
         ]
     },
@@ -159,18 +182,33 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Front-End Frameworks',
-                description: <>React | Node.js | Next.js | Vue.js</>,
+                title: 'Programming Languages',
+                description: <>HTML | CSS | JavaScript | TypeScript | C# | PHP | Python</>,
                 images: [] 
             },
             {
-                title: 'Automation & Workflow Optimization',
-                description: <>Webpack | Gulp | npm | Continuous integration (CI/CD) with GitHub Actions</>,
+                title: 'Front-End Frameworks',
+                description: <>React | Next.js | Vue.js | Nuxt.js | Angular | Svelte</>,
+                images: [] 
+            },
+            {
+                title: 'Back-End Frameworks',
+                description: <>Node.js | Express.js | Nest.js | .NET | ASP.NET | Laravel | Django | Flask | FastAPI</>,
                 images: []
             },
             {
-                title: 'Web Development Languages',
-                description: <>HTML | CSS | JavaScript | TypeScript</>,
+                title: 'Database Development',
+                description: <>SQL (MySQL, PostgreSQL, Oracle) | MongoDB</>,
+                images: []
+            },
+            {
+                title: 'Mobile Development',
+                description: <>React Native | Ionic | Flutter</>,
+                images: []
+            },
+            {
+                title: 'Automation & Workflow Optimization',
+                description: <>Webpack | Vite | Gulp | NPM | Continuous integration (CI/CD) with GitHub Actions </>,
                 images: []
             },
             {
@@ -180,17 +218,17 @@ const about = {
             },
             {
                 title: 'UI Libraries & Frameworks',
-                description: <>Bootstrap | Material-UI | Tailwind CSS</>,
+                description: <>Bootstrap | Tailwind CSS | Material-UI | Once-UI</>,
                 images: []
             },
             {
                 title: 'Deployment Platforms',
-                description: <>Vercel | Netlify | AWS</>,
+                description: <>AWS | Vercel | Netlify | Heroku | XServer</>,
                 images: []
             },
             {
                 title: 'Version Control & Collaboration',
-                description: <>Git | GitHub</>,
+                description: <>Git | GitHub | GitLab</>,
                 images: []
             }
         ]
