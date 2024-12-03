@@ -85,7 +85,7 @@ export default function Home(
 						<RevealFx translateY="4">
 							<Heading
 								wrap="balance"
-								variant="display-strong-m">
+								variant="display-strong-l">
 								{home.headline}
 							</Heading>
 						</RevealFx>

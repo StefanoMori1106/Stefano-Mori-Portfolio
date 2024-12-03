@@ -8,7 +8,7 @@ const person = {
     },
     role:      'Full-Stack Developer',
     avatar:    '/images/mi.png',
-    location:  'FL, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    location:  'Florida, United States', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['Japanese', 'English']  // optional: Leave the array empty if you don't want to display languages
 }
 
@@ -83,7 +83,7 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
+        display: false,
         link: 'https://cal.com/dustinmmoore'
     },
     intro: {
