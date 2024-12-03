@@ -8,8 +8,8 @@ const person = {
     },
     role:      'Full-Stack Developer',
     avatar:    '/images/mi.png',
-    location:  'Miami, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Florida, United States', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['Japanese', 'English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -83,7 +83,7 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
+        display: false,
         link: 'https://cal.com/dustinmmoore'
     },
     intro: {
@@ -98,12 +98,18 @@ const about = {
         experiences: [
             {
                 company: 'Freelancer',
-                timeframe: '2024 - Present',
-                role: 'Full-Stack Developer',
+                timeframe: '2019 - Present',
+                role: 'Senior Full-Stack Developer | Strong Problem-Solver',
                 achievements: [
-                    <>I develop full-stack applications and websites for small businesses. Using Next.js and React, I focus on dynamic routing and server-side rendering for better performance and SEO. For static sites, I use HTML, CSS, and JavaScript to create clean, user-friendly platforms that showcase services effectively.</>,
-                    <>Utilizing Git and GitHub for organized version control and efficient collaboration. I streamline deployment with Vercel, ensuring fast, reliable updates that keep projects running smoothly.</>,
-                    <>Leveraging AI tools to enhance productivity, meet deadlines, and deliver high-quality results. These innovations help improve development speed and elevate the overall user experience, supporting clients in reaching their business goals.</>
+                    <>Designed and developed fully responsive, user-friendly web applications with an emphasis on seamless UI/UX design to meet clients' unique business goals and branding guidelines.</>,
+                    <>Built and maintained robust backend systems using technologies like Node.js, PHP, and Python, with efficient database management utilizing MySQL, MongoDB, and PostgreSQL.</>,
+                    <>Enhanced website visibility and performance by implementing SEO best practices, ensuring optimal search engine rankings and improved user engagement.</>,
+                    <>Streamlined development workflows through the adoption of CI/CD pipelines, facilitating faster and error-free deployments with tools like Jenkins, GitHub Actions, and Docker.</>,
+                    <>Delivered dynamic and interactive front-end experiences using modern frameworks such as React, Vue.js, and Next.js, integrated with backend APIs for a seamless user experience.</>,
+                    <>Provided customized problem-solving solutions by analyzing client requirements, troubleshooting issues, and implementing innovative approaches to ensure project success.</>,
+                    <>Maintained attention to detail to ensure high-quality code, optimized performance, and flawless functionality across different devices and browsers.</>,
+                    <>Offered continuous support and maintenance, including performance optimization, security updates, and new feature development, ensuring long-term client satisfaction and project sustainability.</>,
+                    <>Collaborated with clients to define clear objectives, managed project timelines effectively, and delivered results that consistently exceeded expectations.</>
                 ],
                 images: []
             },
@@ -164,7 +170,7 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'Nova Southeastern University (NSU)',
+                name: 'Miyagi University of Education',
                 description: <>Bachelor's Degree in Computer Engineering</>,
             },
             {
