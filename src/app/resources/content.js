@@ -24,28 +24,28 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/StefanoMori1106',
+        link: 'https://github.com/TrustworthyDev',
     },
     // {
     //     name: 'LinkedIn',
     //     icon: 'linkedin',
     //     link: 'https://www.linkedin.com/in/',
     // },
-    {
-        name: '+1 (561) 501 1550',
-        icon: 'phone',
-        link: 'tel:+15615011550',
-    },
+    // {
+    //     name: '+1 (561) 501 1550',
+    //     icon: 'phone',
+    //     link: 'tel:+15615011550',
+    // },
     {
         name: 'Skype',
         icon: 'skype',
         link: 'skype:live:.cid.3877235d4216d91f?chat',
     },
-    {
-        name: 'Discord',
-        icon: 'discord',
-        link: 'HiddenEye',
-    },
+    // {
+    //     name: 'Discord',
+    //     icon: 'discord',
+    //     link: 'HiddenEye',
+    // },
     {
         name: 'Email',
         icon: 'email',
