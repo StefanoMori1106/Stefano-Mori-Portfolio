@@ -12,7 +12,7 @@ const i18nOptions = {
 const routes = {
     '/':        true,
     '/about':   true,
-    '/work':    true,
+    '/work':    false,
     '/blog':    false,
     '/gallery': false,
 }
@@ -36,7 +36,7 @@ const style = {
     accent:      'aqua',        // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
     solid:       'contrast',    // color | contrast
     solidStyle:  'plastic',     // flat | plastic
-    border:      'playful',     // rounded | playful | conservative
+    border:      'rounded',     // rounded | playful | conservative
     surface:     'translucent', // filled | translucent
     transition:  'all',         // all | micro | macro
     scaling:     '100',         // 90 | 95 | 100 | 105 | 110
