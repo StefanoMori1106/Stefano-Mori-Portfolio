@@ -340,6 +340,7 @@ export default function About(
                                         fillWidth gap="4"
                                         direction="column">
                                         <Text
+                                            id={`${skill.title}`}
                                             variant="heading-strong-l">
                                             {skill.title}
                                         </Text>
