@@ -6,8 +6,8 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Full-Stack Developer',
-    avatar:    '/images/mi.png',
+    role:      'Senior Full-Stack Engineer',
+    avatar:    '/images/1-2.jpg',
     location:  'Florida, United States', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['Japanese', 'English']  // optional: Leave the array empty if you don't want to display languages
 }
@@ -22,25 +22,26 @@ const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
+        name: 'LinkedIn',
+        icon: 'linkedin',
+        link: 'https://www.linkedin.com/in/stefano-m-4936aa342',
+    },
+    {
         name: 'GitHub',
         icon: 'github',
         link: 'https://github.com/TrustworthyDev',
     },
-    // {
-    //     name: 'LinkedIn',
-    //     icon: 'linkedin',
-    //     link: 'https://www.linkedin.com/in/',
-    // },
+    
     // {
     //     name: '+1 (561) 501 1550',
     //     icon: 'phone',
     //     link: 'tel:+15615011550',
     // },
-    {
-        name: 'Skype',
-        icon: 'skype',
-        link: 'skype:live:.cid.3877235d4216d91f?chat',
-    },
+    // {
+    //     name: 'Skype',
+    //     icon: 'skype',
+    //     link: 'skype:live:.cid.3877235d4216d91f?chat',
+    // },
     // {
     //     name: 'Discord',
     //     icon: 'discord',
@@ -62,7 +63,8 @@ const home = {
                     speed="medium"
                     trigger="instant"
                     charset={[
-                        'A', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+                        // 'A', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+                        '*'
                     ]}
                 >
                     Driving Innovation and Excellence Through Expertly Crafted Digital Solutions and IT Strategies
