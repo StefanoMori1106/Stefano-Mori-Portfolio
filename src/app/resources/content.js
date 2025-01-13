@@ -8,8 +8,8 @@ const person = {
     },
     role:      'Senior Full-Stack Engineer',
     avatar:    '/images/1-2.jpg',
-    location:  'Florida, United States', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['Japanese', 'English']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Cherkasy, Ukraine', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['Ukrainian', 'English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,13 +24,13 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/in/stefano-m-4936aa342',
+        link: 'https://www.linkedin.com/in/stefano-mori-74b03b343',
     },
-    {
-        name: 'GitHub',
-        icon: 'github',
-        link: 'https://github.com/TrustworthyDev',
-    },
+    // {
+    //     name: 'GitHub',
+    //     icon: 'github',
+    //     link: 'https://github.com/trustworthyDev',
+    // },
     
     // {
     //     name: '+1 (561) 501 1550',
@@ -50,7 +50,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:stefano.mori.dev@gmail.com',
+        link: 'mailto:stefano.mori.work@gmail.com',
     }, 
 ]
 
@@ -86,7 +86,7 @@ const about = {
     },
     calendar: {
         display: false,
-        link: 'https://cal.com/dustinmmoore'
+        link: 'https://cal.com/stefanomori'
     },
     intro: {
         display: true,
